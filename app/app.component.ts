@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
      </nav>
      <router-outlet></router-outlet>
   `,
-  styleUrls: ['css/app.component.css']
+  styleUrls: ['./css/app.component.css']
 })
 export class AppComponent {
   title = 'Tour of Heroes';
