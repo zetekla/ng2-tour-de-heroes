@@ -9,8 +9,8 @@ import { Hero } from './hero';
 @Component({
   moduleId: module.id,
   selector: 'hero-search',
-  templateUrl: 'fixtures/hero-search.component.html',
-  styleUrls: [ 'css/hero-search.component.css' ],
+  templateUrl: '../fixtures/hero-search.component.html',
+  styleUrls: [ '../css/hero-search.component.css' ],
   providers: [HeroSearchService]
 })
 

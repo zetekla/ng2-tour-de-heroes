@@ -8,8 +8,8 @@ import { HeroService }  from './hero.service';
 @Component({
   moduleId: module.id,
   selector: 'my-hero-detail',
-  templateUrl: 'fixtures/hero-detail.component.html',
-  styleUrls: [ 'css/hero-detail.component.css' ]
+  templateUrl: '../fixtures/hero-detail.component.html',
+  styleUrls: [ '../css/hero-detail.component.css' ]
 })
 export class HeroDetailComponent implements OnInit {
   hero: Hero;
