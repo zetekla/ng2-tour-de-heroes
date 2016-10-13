@@ -15,7 +15,7 @@ import { AppComponent }         from './app.component';
 import { DashboardComponent }   from './heroes/dashboard.component';
 import { HeroDetailComponent }  from './heroes/hero-detail.component';
 import { HeroesComponent }      from './heroes/heroes.component';
-import { HeroService }          from './heroes/hero.service';
+import { HeroService }          from './heroes/services/hero.service';
 import { HeroSearchComponent }  from './heroes/hero-search.component';
 
 
